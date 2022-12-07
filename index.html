@@ -5,48 +5,50 @@
   <!-- HTML head -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Landing Page</title>
+  <title>Stark Intership </title>
+  
 
   <!-- Link the CSS stylesheet here -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira Stencil One">
 </head>
 
 <body>
   <!-- Header, Navigation w/ links -->
   <header>
-    <nav class="">
+    <nav class="util--text-right">
         <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Philosophy</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="https://marvel.fandom.com/wiki/Stark_Industries_(Earth-616)" target="_blank">About</a></li>
+            <li><a href="https://youtu.be/eiBvkCZzeOM" target="_blank">Philosophy</a></li>
+            <li><a href="contact">Contact</a></li>
         </ul>
     </nav>
   </header>
 
   <!-- Main content -->
-  <main>
-      <section id="Philososphy"
+  <main class="util--text-center">
+      <section id="Philososphy">
           <h1>Welcome to Stark Industries</h1>
-        
-          <figure>
-              <img src="#" alt="Welcome to Stark Industries">
-              <figcaption>Welcome To Stark Industries</figcaption>
+            <figure>
+              <img class="logo" src="./assets/images/starkind.png" alt="Welcome to Stark Industries">
+              <figcaption>The World Leader in Innovative Technologies</figcaption>
           </figure>
         </section>
     </main>
     <!-- (title, image/figure, image/figure caption) -->
     
-    <section id="Contact">
+    <section id="contact">
         <h2>Apply Today</h2>
         <!-- (contact form w/ inputs & submit button) -->
         <form>
             <ul>
                 <li class="input-wrapper">
                     <label for="">Name</label>
-                    <input type="control space to change input">
+                    <input type="text">
                 </li>
                 <li class="input-wrapper">
                     <label for="">Email</label>
-                    <input type="control space">
+                    <input type="email">
                 </li>
                 <div>
                     <button class="submit-button">send</button>
@@ -56,12 +58,10 @@
     </section>
 
 
-  <!-- (section header) -->
-  <footer class="">
+  <!-- Footer -->
+  <footer class="util--text-center">
     © 2022 Stark Industries.  All rights reserved.
   </footer>
-
-  <!-- Footer -->
 </body>
 
 </html>

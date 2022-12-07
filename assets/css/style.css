@@ -1,0 +1,79 @@
+ /* Universal Selector */
+* {
+    font-family: "Saira Stencil One", serif;
+    margin: 0;
+    padding: 0;
+}
+ /*Element Selector */
+header{
+    position: fixed;
+    background: black;
+    width: 100%;
+    border-bottom: 15px solid #0E324D;
+    
+}
+
+main {
+    padding-top: 100px;
+}
+
+nav {
+    padding: 10px 0;
+}
+nav a {
+    color: #FDFFFF;
+    font-size: 25px;
+}
+
+li {
+    list-style: none;
+    padding: 0 20px;
+}
+nav li {
+    display: inline;
+    padding: 0 10px;
+}
+
+ /* Class & ID selectors */
+
+
+ .logo {
+    width: 500px;
+ }
+
+ #contact {
+    margin: 20px;
+    background: #0E324D;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+ }
+
+ .input-wrapper {
+    padding: 10px;
+    color: #FDFFFF;
+    background: ;
+ }
+
+ .submit-button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: FDFFFF;
+    color: black;
+    cursor: pointer;
+    border: 2px solid black;
+    font-size: 16px;
+ }
+
+h2 {
+    color: #FDFFFF;
+}
+
+ /* Utility Classes  */
+.util--text-right {
+    text-align: right;
+}
+
+.util--text-center {
+    text-align: center;
+}
